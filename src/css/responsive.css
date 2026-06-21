@@ -31,6 +31,11 @@
     grid-template-columns: 1fr; 
   }
   
+  .profile {
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+  
   .container .profile-data .info { 
     flex-direction: column; 
   }
